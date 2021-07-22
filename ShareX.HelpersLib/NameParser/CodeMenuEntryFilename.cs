@@ -59,6 +59,7 @@ namespace ShareX.HelpersLib
         public static readonly CodeMenuEntryFilename rx = new CodeMenuEntryFilename("rx", Resources.ReplCodeMenuEntry_rx_Random_hexadecimal, Resources.ReplCodeMenuCategory_Random);
         public static readonly CodeMenuEntryFilename guid = new CodeMenuEntryFilename("guid", Resources.ReplCodeMenuEntry_guid_Random_guid, Resources.ReplCodeMenuCategory_Random);
         public static readonly CodeMenuEntryFilename radjective = new CodeMenuEntryFilename("radjective", Resources.CodeMenuEntryFilename_RandomAdjective, Resources.ReplCodeMenuCategory_Random);
+        public static readonly CodeMenuEntryFilename memes = new CodeMenuEntryFilename("memes", Resources.CodeMenuEntryFilename_RandomMeme, Resources.ReplCodeMenuCategory_Random);
         public static readonly CodeMenuEntryFilename ranimal = new CodeMenuEntryFilename("ranimal", Resources.CodeMenuEntryFilename_RandomAnimal, Resources.ReplCodeMenuCategory_Random);
         public static readonly CodeMenuEntryFilename remoji = new CodeMenuEntryFilename("remoji", Resources.RandomEmojiRepeatUsingN, Resources.ReplCodeMenuCategory_Random);
         public static readonly CodeMenuEntryFilename rf = new CodeMenuEntryFilename("rf", Resources.ReplCodeMenuEntry_rf_Random_line_from_file, Resources.ReplCodeMenuCategory_Random);

@@ -144,7 +144,14 @@ namespace ShareX.HelpersLib.Properties {
                 return ResourceManager.GetString("adjectives", resourceCulture);
             }
         }
-        
+
+        internal static string memes {
+            get
+            {
+                return ResourceManager.GetString("memes", resourceCulture);
+            }
+        }
+
         /// <summary>
         ///   Looks up a localized string similar to Add image effects.
         /// </summary>
@@ -576,7 +583,16 @@ namespace ShareX.HelpersLib.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to BottomCenter.
+        ///   Looks up a localized string similar to Random meme.
+        /// </summary>
+        internal static string CodeMenuEntryFilename_RandomMeme {
+            get {
+                return ResourceManager.GetString("CodeMenuEntryFilename_RandomMeme", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bottom center.
         /// </summary>
         internal static string ContentAlignment_BottomCenter {
             get {
@@ -585,7 +601,7 @@ namespace ShareX.HelpersLib.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to BottomLeft.
+        ///   Looks up a localized string similar to Bottom left.
         /// </summary>
         internal static string ContentAlignment_BottomLeft {
             get {
@@ -594,7 +610,7 @@ namespace ShareX.HelpersLib.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to BottomRight.
+        ///   Looks up a localized string similar to Bottom right.
         /// </summary>
         internal static string ContentAlignment_BottomRight {
             get {
@@ -603,7 +619,7 @@ namespace ShareX.HelpersLib.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to MiddleCenter.
+        ///   Looks up a localized string similar to Middle center.
         /// </summary>
         internal static string ContentAlignment_MiddleCenter {
             get {
@@ -612,7 +628,7 @@ namespace ShareX.HelpersLib.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to MiddleLeft.
+        ///   Looks up a localized string similar to Middle left.
         /// </summary>
         internal static string ContentAlignment_MiddleLeft {
             get {
@@ -621,7 +637,7 @@ namespace ShareX.HelpersLib.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to MiddleRight.
+        ///   Looks up a localized string similar to Middle right.
         /// </summary>
         internal static string ContentAlignment_MiddleRight {
             get {
@@ -630,7 +646,7 @@ namespace ShareX.HelpersLib.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to TopCenter.
+        ///   Looks up a localized string similar to Top center.
         /// </summary>
         internal static string ContentAlignment_TopCenter {
             get {
@@ -639,7 +655,7 @@ namespace ShareX.HelpersLib.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to TopLeft.
+        ///   Looks up a localized string similar to Top left.
         /// </summary>
         internal static string ContentAlignment_TopLeft {
             get {
@@ -648,7 +664,7 @@ namespace ShareX.HelpersLib.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to TopRight.
+        ///   Looks up a localized string similar to Top right.
         /// </summary>
         internal static string ContentAlignment_TopRight {
             get {

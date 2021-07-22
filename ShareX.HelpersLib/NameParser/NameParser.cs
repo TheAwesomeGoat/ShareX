@@ -241,6 +241,8 @@ namespace ShareX.HelpersLib
                 () => CultureInfo.InvariantCulture.TextInfo.ToTitleCase(Helpers.GetRandomLine(Resources.adjectives)));
             result = result.ReplaceAll(CodeMenuEntryFilename.ranimal.ToPrefixString(),
                 () => CultureInfo.InvariantCulture.TextInfo.ToTitleCase(Helpers.GetRandomLine(Resources.animals)));
+            result = result.ReplaceAll(CodeMenuEntryFilename.memes.ToPrefixString(),
+                () => CultureInfo.InvariantCulture.TextInfo.ToTitleCase(Helpers.GetRandomLine(Resources.memes)));
 
             foreach (Tuple<string, string> entry in ListEntryWithArgument(result, CodeMenuEntryFilename.rf.ToPrefixString()))
             {
